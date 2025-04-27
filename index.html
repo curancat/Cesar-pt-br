@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Capítulo 1 - Desejo Profano</title>
+  <link rel="stylesheet" href="styles/style.css"/>
+  <style>
+    body {
+      background-color: #2C2F4F;
+      color: #FFFFFF;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 2s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    .titulo {
+      font-family: 'Bodoni', serif;
+      -webkit-text-stroke: 1px #8B0A1A;
+      text-shadow:
+         -1px 0 #8B0A1A,
+         0 1px #8B0A1A,
+         1px 0 #8B0A1A,
+         0 -1px #8B0A1A;
+      color: #C51077;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .anuncio {
+      font-family: 'Bodoni', serif;
+      -webkit-text-stroke: 1px #2E4056;
+      text-shadow:
+         -1px 0 #2E4056,
+         0 1px #2E4056,
+         1px 0 #2E4056,
+         0 -1px #2E4056;
+      color: #4682B4;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    a {
+      color: purple;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    hr {
+      border: 1px solid #8B0A1A;
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    .botao {
+      background-color: #A12DD2;
+      border: none;
+      padding: 15px 30px;
+      color: white;
+      font-size: 18px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+    }
+
+    .botao:hover {
+      background-color: #8B0A1A;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="titulo">
+    Cap 1:<br>Desejo Profano
+  </h1>
+
+  <h3 class="anuncio">
+    Artista: <a href="https://x.com/anglonsfw" target="_blank">Anglo</a>
+  </h3>
+
+  <br>
+
+  <h3 class="anuncio">
+    • O pequeno Caesar estava focado, imerso no mundo virtual.<br><br>
+    Mesmo sua mãe o chamando para jantar calmamente,<br>
+    ele reluta, forçando-a chamar sua atenção de outro jeito,<br>
+    uma ação que mudará permanentemente<br>
+    a vida de ambos.
+  </h3>
+
+  <br>
+  <hr>
+  <center>
+    <div>
+    <img src="scripts/1.jpg" alt="quadrinho.1">
+    <img src="scripts/2.jpg" alt="quadrinho.2">
+    <img src="scripts/3.jpg" alt="quadrinho.3">
+    <img src="scripts/4.jpg" alt="quadrinho.4">
+    <img src="scripts/5.jpg" alt="quadrinho.5">
+    <img src="scripts/6.jpg" alt="quadrinho.6">
+  </div>
+    </center>
+  <hr>
+
+  <center>
+    <button class="botao" onclick="alerta()">Capítulo 2</button>
+  </center>
+  <script>
+    function alerta(){
+      alert('Capítulo indisponível, volte daqui 1 semana!');
+    }
+  </script>
+</body>
+</html>
